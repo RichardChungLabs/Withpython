@@ -1,3 +1,5 @@
+
+#. 최초 로컬에 폴더를 만들고 진행한다.
 # …or create a new repository on the command line
 # echo "# Withpython" >> README.md
 # git init
@@ -8,7 +10,9 @@
 # git push -u origin main
 
 
-# 수정후 
+# 소스 수정후에는 
+#  git add .
+# git commit -m "markdown"
 
 # …or push an existing repository from the command line
 # git remote add origin https://github.com/RichardChungLabs/Withpython.git
